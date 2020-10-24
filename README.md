@@ -15,7 +15,13 @@ Process to learn data stucture and algorithm
 
 ##### 数组 vs 链表
 数组: 增删非首位元素时往往需要移动元素
+
 链表: 增删非首尾元素, 不需要移动元素, 只需要更改next的指向即可
+
+
+#### git操作
+https://jingyan.baidu.com/article/0202781145eaab1bcc9ce5f0.html
+
 
 
 
