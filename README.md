@@ -1,11 +1,11 @@
 # Leetcode
 Process to learn data stucture and algorithm
 
-### 时间复杂度
+#### 时间复杂度
 一个函数，O表示,比如O(1),O(n),O(logN)...
 定性描述该算法的运行时间
 
-### 空间复杂度
+#### 空间复杂度
 一个函数，O表示,比如O(1),O(n),O(n^2)...
 算法在运行过程中临时占用存储空间大小的量度
 一个变量：O(1)
