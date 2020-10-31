@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //前端与栈：JS中的函数调用堆栈
 const func1 = () =>{
     func2();
@@ -8,7 +7,6 @@ const func2 = () =>{
 }
 const func3 = () =>{};
 
-=======
 //前端与栈：JS中的函数调用堆栈
 const func1 = () =>{
     func2();
@@ -18,5 +16,5 @@ const func2 = () =>{
 }
 const func3 = () =>{};
 
->>>>>>> 8c30547... commit leetcode 933 by javascript
+
 func1();
