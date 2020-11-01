@@ -19,7 +19,7 @@ const instanceOf = (A,B) => {
 var foo = {},
     F = function(){};
 Object.prototype.a = 'value a';
-Function.prototype.b = 'value b';
+Function.prototype.b = ' value b';
 
 console.log(foo.a);
 console.log(foo.b);
