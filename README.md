@@ -32,6 +32,13 @@ Process to learn data stucture and algorithm
 
 链表: 增删非首尾元素, 不需要移动元素, 只需要更改next的指向即可
 
+####  集合 Set
+一种无序且唯一的数据结构
+
+ES6有集合, 叫做Set
+
+集合的常用操作: 去重、判断某元素是否在集合中, 求交集
+
 
 #### git操作
 https://jingyan.baidu.com/article/0202781145eaab1bcc9ce5f0.html
