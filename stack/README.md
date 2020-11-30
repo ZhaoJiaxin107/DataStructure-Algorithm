@@ -54,7 +54,7 @@ greeting();
 * Javascript中没有队列,但可以用Array实现队列的所有功能
 * 队列常用操作: push, shift, queue[0]
 
-*
+
 
 
 
