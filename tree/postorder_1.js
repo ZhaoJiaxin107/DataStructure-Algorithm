@@ -4,6 +4,7 @@ const postorder = (root) =>{
     if(!root){return;}
     const outputStack = [];
     const stack = [root];
+    // console.log(stack);
     while(stack.length){
         const n = stack.pop();
         // console.log(n.val);

@@ -2,6 +2,7 @@
 1.从第二个数开始往前比
 2.比前一个数大就往后排
 3.以此类推一直进行到最后一个数
+4.动画演示: visualgo.netm
 
 */
 
@@ -29,4 +30,4 @@ const arr = [2, 4, 5, 3, 1];
 arr.insertionSort();
 
 
-// 时间复杂度: O(n^2)
+// 时间复杂度(Time Complexity): O(n^2)
