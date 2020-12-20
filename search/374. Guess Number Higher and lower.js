@@ -48,3 +48,6 @@ var guessNumber = function(n) {
         }
     }
 };
+
+// 时间复杂度: logN
+// 空间复杂度: O(1) 没有线性增长的
