@@ -9,10 +9,10 @@ mySet.add(5);
 
 mySet.add("Some text");
 
-let o = { a:1, b:2};
+let o = { a: 1, b: 2 };
 mySet.add(o);
 
-mySet.add({ a:1, b:2});
+mySet.add({ a: 1, b: 2 });
 
 //const has = mySet.has(1);
 const has = mySet.has(3);
@@ -20,7 +20,7 @@ const has = mySet.has(3);
 
 mySet.delete(2);
 
-console.log("mySet:",mySet);
+console.log("mySet:", mySet);
 
 
 //for(let item of mySet) console.log(item);
@@ -34,16 +34,16 @@ console.log("mySet:",mySet);
 
 const myArr = Array.from(mySet);
 
-const mySet2 = new Set([1,2,4,5]);
-console.log("mySet2:",mySet2);
+const mySet2 = new Set([1, 2, 4, 5]);
+console.log("mySet2:", mySet2);
 
 //Intersection
-const intersection = new Set([...mySet].filter( x =>mySet2.has(x)));
-console.log("intersection",intersection);
+const intersection = new Set([...mySet].filter(x => mySet2.has(x)));
+console.log("intersection", intersection);
 
 // Difference
-const difference = new Set([...mySet].filter( x => !mySet2.has(x)));
-console.log("difference",difference);
+const difference = new Set([...mySet].filter(x => !mySet2.has(x)));
+console.log("difference", difference);
 
 
 
