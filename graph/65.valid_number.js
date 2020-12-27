@@ -48,7 +48,7 @@ var isNumber = function (s) {
         7: { 'digit': 5 }
     };
 
-    let state = 0
+    let state = 0;
 
     for (c of s.trim()) {
         if (c >= '0' && c <= '9') {
