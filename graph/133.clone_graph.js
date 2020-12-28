@@ -49,3 +49,40 @@ var cloneGraph = function (node) {
     dfs(node);
     return visited.get(node);
 };
+
+// 时间复杂度: O(n), 因为深度优先遍历访问了图中的所有节点
+// 空间复杂度: O(n), 因为有Map的数据结构, 里面可能会存储所有的节点
+
+/**
+ * // Definition for a Node.
+ * function Node(val, neighbors) {
+ *    this.val = val === undefined ? 0 : val;
+ *    this.neighbors = neighbors === undefined ? [] : neighbors;
+ * };
+ */
+
+/**
+ * @param {Node} node
+ * @return {Node}
+ */
+var cloneGraph = function (node) {
+    if (!node) return;
+    const visited = new Map();
+    visited.set(node, new Node(node.val));
+    const q = [node];
+    while (q.length) {
+        const n = q.shift();
+        // console.log(n.val);
+        (n.neighbors || []).forEach(ne => {
+            if (!visited.has(ne)) {
+                q.push(ne);
+                visited.set(ne, new Node(ne.val));
+            }
+            visited.get(n).neighbors.push(visited.get(ne));
+        });
+    }
+    return visited.get(node);
+};
+
+// 时间复杂度: O(n) n为所有节点
+// 空间复杂度: O(n) n为所有节点
