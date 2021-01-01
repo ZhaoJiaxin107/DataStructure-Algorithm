@@ -23,6 +23,6 @@ var preorderTraversal = function(root) {
     return res;
 };
 
-//time complexcity: O(N)
-//space complexcity: size of stack: O(N)
+//time complexcity: O(n) n为所有节点
+//space complexcity: size of stack: O(n)
 //栈的作用:模拟递归,改写递归
