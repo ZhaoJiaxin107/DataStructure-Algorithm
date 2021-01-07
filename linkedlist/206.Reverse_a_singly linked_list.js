@@ -26,4 +26,6 @@ var reverseList = function(head){
     }
     return p2;
 }
+// 时间复杂度 O(n)
+// 空间复杂度 O(1)
 
