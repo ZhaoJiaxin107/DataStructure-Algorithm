@@ -10,7 +10,8 @@ func -> Function.prototype -> Object.prototype -> null<br>
 arr -> Array.prototype -> Function.prototype -> null<br>
 
 #### 原型链知识点
-1.如果A沿着原型链能找到B.prototype, 那么A instance of B 为true
-2.如果在A对象上没有找到x属性,那么会沿着原型链找X属性
+1.如果A沿着原型链能找到B.prototype, 那么A instance of B 为true<br>
+
+3.如果在A对象上没有找到x属性,那么会沿着原型链找X属性
 
  
