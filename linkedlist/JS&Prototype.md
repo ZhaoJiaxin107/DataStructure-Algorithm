@@ -5,9 +5,9 @@
 
 3.原型链通过_proto_属性连接各种原型对象
 
-obj -> Object.prototype -> null
-func -> Function.prototype -> Object.prototype -> null
-arr -> Array.prototype -> Function.prototype -> null
+obj -> Object.prototype -> null<br>
+func -> Function.prototype -> Object.prototype -> null<br>
+arr -> Array.prototype -> Function.prototype -> null<br>
 
 #### 原型链知识点
 1.如果A沿着原型链能找到B.prototype, 那么A instance of B 为true
